@@ -25,4 +25,5 @@ jobs:
           title: "Build"
           files: |
             markdown.css
+            README.md
             
