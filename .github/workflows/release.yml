@@ -24,6 +24,5 @@ jobs:
           prerelease: false
           title: "Build"
           files: |
-            markdown.css
-            README.md
+            **/*.css
             
