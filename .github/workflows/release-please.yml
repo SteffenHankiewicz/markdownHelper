@@ -12,3 +12,4 @@ jobs:
           release-type: simple
           extra-files: |
             markdown.css
+            README.md
