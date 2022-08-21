@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/SteffenHankiewicz/markdownHelper/compare/v1.0.0...v1.0.1) (2022-08-21)
+
+
+### Bug Fixes
+
+* release ([3f43fd9](https://github.com/SteffenHankiewicz/markdownHelper/commit/3f43fd966074f555ef6ca4bf5eca5abe0f71f985))
+* release ([96e916b](https://github.com/SteffenHankiewicz/markdownHelper/commit/96e916bdfd8f0181961b9e5cde2624cc8062e285))
+* release ([646e38a](https://github.com/SteffenHankiewicz/markdownHelper/commit/646e38a98676b6bf9584b36bec77042df82f68b0))
+* release again ([4060058](https://github.com/SteffenHankiewicz/markdownHelper/commit/4060058112142c5ba00bba444083ab25cf0a8cef))
+
 ## 1.0.0 (2022-08-21)
 
 
