@@ -9,7 +9,7 @@ In Visual Studio Code edit the Markdown Styles configuration and add this URL th
 https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper/markdown.css
 ```
 
-Alternatively you can add the following line to settings.json:
+Alternatively you can add the following line to `settings.json`:
 
 ```json
 "markdown.styles": [
