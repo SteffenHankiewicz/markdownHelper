@@ -11,7 +11,7 @@ https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper/markdown.css
 
 Alternatively you can add the following line to settings.json:
 
-´´´json
+```json
 "markdown.styles": [
         "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper/markdown.csss"
     ]
