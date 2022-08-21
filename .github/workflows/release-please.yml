@@ -13,3 +13,7 @@ jobs:
           extra-files: |
             markdown.css
             README.md
+      - uses: AButler/upload-release-assets@v2.0
+        with:
+          files: '*.css'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
