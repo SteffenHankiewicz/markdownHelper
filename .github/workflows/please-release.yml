@@ -7,7 +7,12 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: create release
+        uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
           extra-files: |
