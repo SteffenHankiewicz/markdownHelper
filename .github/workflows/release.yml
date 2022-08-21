@@ -12,12 +12,12 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      # ...
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: "Build & test"
-        run: |
-          echo "done!"
-
-      - uses: "marvinpinto/action-automatic-releases@latest"
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
@@ -25,4 +25,3 @@ jobs:
           title: "Build"
           files: |
             **/*.css
-            
