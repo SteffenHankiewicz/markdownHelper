@@ -1,0 +1,37 @@
+h1 {
+  border-bottom: 1px solid #CCC;
+  color:purple !important;
+}
+h2 {
+  border-bottom: 1px solid #CCC;
+  color:red;
+}
+
+& > ul {
+  list-style-type: square;
+}
+
+code {
+  color:#c7254e;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+em {
+  color: white;
+  background-color: #c7254e;
+  font-style: normal;
+  padding: 0.04em 0.3em;
+  margin: 0px;
+  border-radius: 3px;
+}
+
+atom-text-editor {
+  font-size: .85em;
+  box-shadow: inset -1px -1px 0 rgba(0, 0, 0, .08);
+  word-wrap: normal;
+}
+
+del {
+    text-decoration: line-through;
+    color: #bbb;
+}
