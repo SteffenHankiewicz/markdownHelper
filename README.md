@@ -20,3 +20,4 @@ Alternatively you can add the following line to `settings.json`:
 - test
 - test2
 - test3
+- test4
