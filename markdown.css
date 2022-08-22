@@ -43,4 +43,7 @@ img {
     margin-top: 15px;
     margin-bottom: 10px;
     min-height: 50px;
+    color: red;
+    font-weight: bold;
+    font-size: larger;
 }
