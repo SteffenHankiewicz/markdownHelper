@@ -32,12 +32,6 @@ em {
   border-radius: 3px;
 }
 
-atom-text-editor {
-  font-size: .85em;
-  box-shadow: inset -1px -1px 0 rgba(0, 0, 0, .08);
-  word-wrap: normal;
-}
-
 s {
     text-decoration: line-through;
     color: #bbb;
