@@ -6,18 +6,14 @@ This is a small helper repository to collect markdown enhancement stuff.
 In Visual Studio Code edit the Markdown Styles configuration and add this URL there (through jsDelivr CDN as GitHub raw does add an unwanded header): 
 
 ```
-https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper/markdown.css
+https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.5.0/markdown.css
 ```
+Be careful to use the latest tagged version inside of the URL.
 
 Alternatively you can add the following line to `settings.json`:
 
 ```json
 "markdown.styles": [
-        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper/markdown.csss"
+        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.5.0/markdown.css"
     ]
 ```
-
-- test
-- test2
-- test3
-- test4
