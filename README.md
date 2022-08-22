@@ -18,4 +18,4 @@ Alternatively you can add the following line to `settings.json`:
     ]
 ```
 
-test
+test a
