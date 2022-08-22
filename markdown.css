@@ -27,10 +27,11 @@ ul {
 }
 
 ul li ul {
-  color:red;
+  color: #666;
 }
+
 ul li ul li ul {
-  color:blue;
+  color: #888;
 }
 
 code {
