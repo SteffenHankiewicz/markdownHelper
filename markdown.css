@@ -1,17 +1,26 @@
 h1 {
-  border-bottom: 1px solid #CCC;
-}
-h2 {
+  font-size: 2em;
   border-bottom: 1px solid #CCC;
 }
 
-& > ul {
+h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #CCC;
+}
+
+h3 {
+  font-size: 1.4em;
+  border-bottom: 0.5px solid #ddd;
+}
+
+ul {
   list-style-type: square;
 }
 
 code {
   color:#c7254e;
   background-color: rgba(0, 0, 0, 0.03);
+  font-size: 0.9em;
 }
 
 em {
@@ -29,7 +38,7 @@ atom-text-editor {
   word-wrap: normal;
 }
 
-del {
+s {
     text-decoration: line-through;
     color: #bbb;
 }
