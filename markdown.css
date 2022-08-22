@@ -26,6 +26,13 @@ ul {
   padding-inline-start: 20px;
 }
 
+ul li ul {
+  color:red;
+}
+ul li ul li ul {
+  color:blue;
+}
+
 code {
   color:#c7254e;
   background-color: rgba(0, 0, 0, 0.03);
