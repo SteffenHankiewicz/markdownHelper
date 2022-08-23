@@ -12,7 +12,7 @@ To use the provided css-styling open up the configuration file `settings.json` o
 ]
 ```
 
-## Styling of the Markdown editor highligting
+## Customised highlighting inside of the Markdown editor 
 To change the way how the editor is doing the highlighting of the source code do the following:
 - open up the configuration file `settings.json` of Visual Studio Code like written below
 - paste the following snippet into the configuration file:
@@ -30,8 +30,7 @@ To change the way how the editor is doing the highlighting of the source code do
                 },{
                     "scope": "heading.3.markdown",
                     "settings": {
-                        "foreground": "#418be4",
-                        
+                        "foreground": "#418be4"
                     }
                 }
             ]
@@ -40,14 +39,11 @@ To change the way how the editor is doing the highlighting of the source code do
 ```
 
 
-- use the palette to open up `>Inspect Editor Tokens and Scopes` to find out the element you like to style differntly
-
-
 ## Additional tipps
 
-### Open the configuration file `settings.json` of Visual Studio Code in json-editor-mode
-There are different way to open up the json configuration.
-- Open the palette and type `>open user settings` there
+### Open the configuration file of Visual Studio Code in json-editor-mode
+There are different way to open up the json configuration file `settings.json`:
+- Open the palette and type `> Open user settings` there
 - Use the shortcut `⌘` + `,` (Mac) or `Ctrl` + `,` (Windows) and click on the icon in the top right corner (next to the tabs) to switch to json-editor-mode
 
 
@@ -57,3 +53,12 @@ To always open the `settings.json` file directly with the shortcut add the follo
 ```json
 "workbench.settings.editor": "json",
 ```
+
+### Find out the elements inside of editor for customised styling
+For an individual styling of markdown source elements you can use the palette to switch on an inspector that shows how the class names are labeled. To open this inspector do the following:
+
+- use the palette to open up `> Inspect Editor Tokens and Scopes` 
+- hover over the elements you want to inspect
+- get the name from `textmate scopes` inside of the inspector
+
+You can see this in action here: https://egghead.io/lessons/vs-code-adding-custom-syntax-highlighting-to-a-theme-in-vscode
