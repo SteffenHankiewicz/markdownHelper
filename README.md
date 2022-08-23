@@ -1,8 +1,8 @@
-# MarkDown Helper Utilities
-This is a small repository to collect MarkDown utitilies to help using MarkdDown for documentation and protocoll purposes.
+# Markdown Helper Utilities
+This is a small repository to collect Markdown utitilies to help using Markddown for documentation and protocoll purposes.
 
-## Styling of the MarkDown output
-To optimise the styling of the MarkDown Preview you can find an adapted css-File here. Use it inside of Visual Studio Code by configuring it with one of the following two ways. Please notice that the URL to this css-File has to be used through the jsDelivr CDN as GitHub raw files do contain an unwanded header that VSCode does not accept. Additionally please be careful to use the latest tagged version inside of the URL provided here.
+## Styling of the Markdown output
+To optimise the styling of the Markdown Preview you can find an adapted css-File here. Use it inside of Visual Studio Code by configuring it with one of the following two ways. Please notice that the URL to this css-File has to be used through the jsDelivr CDN as GitHub raw files do contain an unwanded header that VSCode does not accept. Additionally please be careful to use the latest tagged version inside of the URL provided here.
 
 ### Configuration user interface
 First open the configuration with one of the following ways:
