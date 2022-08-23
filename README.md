@@ -33,7 +33,7 @@ In this file `settings.json` you can add the following line:
 ## Additional tipps
 
 ### Open the configuration of Visual Studio Code always in json-editor-mode
-To always open the `settings.json file directly add the following line there:
+To always open the `settings.json` file directly add the following line there:
 
 ```json
 "workbench.settings.editor": "json",
