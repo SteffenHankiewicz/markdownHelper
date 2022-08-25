@@ -10,7 +10,7 @@ To use the provided css-styling open up the configuration file `settings.json` o
 
 ```json
 "markdown.styles": [
-        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.6.3/VisualStudioCode/markdown.css"
+        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.7.0/VisualStudioCode/markdown.css"
 ]
 ```
 
