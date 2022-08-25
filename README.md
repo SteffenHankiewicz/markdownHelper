@@ -1,5 +1,7 @@
 # Markdown Helper Utilities
 This is a small repository to collect Markdown utitilies to help using Markddown for documentation and protocol purposes.
+The descriptions of this readme are all included in the provided file [settings.json](VisualStudioCode/settings.json) and can be copied from there.
+
 
 ## Styling of the Markdown output
 To optimise the styling of the Markdown Preview you can find an adapted css-File here. Please notice that the URL to this css-File has to be used through the jsDelivr CDN as GitHub raw files do contain an unwanded header that Visual Studio Code does not accept. Additionally please be careful to use the latest tagged version inside of the URL provided here.
@@ -8,60 +10,21 @@ To use the provided css-styling open up the configuration file `settings.json` o
 
 ```json
 "markdown.styles": [
-        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.5.0/markdown.css"
+        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.6.3/VisualStudioCode/markdown.css"
 ]
 ```
 
 ## Customised highlighting inside of the Markdown editor 
 To change the way how the editor is doing the highlighting of the source code do the following:
-- make sure your theme is in the list of supported themes inside of the snippet, otherwise adapt the snippet
 - open up the configuration file `settings.json` of Visual Studio Code [like written below](#open-the-configuration-file-of-visual-studio-code-in-json-editor-mode)
-- paste the following snippet into the configuration file:
-
-```json
-"editor.tokenColorCustomizations": {
-        "[Visual Studio Light], [Default Light+], [Visual Studio Dark], [Default Dark+]": {
-            "textMateRules": [
-                {
-                    "scope": "markup.italic.markdown",
-                    "settings": {
-                        "foreground": "#c7254e",
-                        "fontStyle": "bold"
-                    }
-                },{
-                    "scope": "heading.1.markdown",
-                    "settings": {
-                        "foreground": "#418be4"
-                        
-                    }
-                },{
-                    "scope": "heading.2.markdown",
-                    "settings": {
-                        "foreground": "#418be4"
-                    }
-                },{
-                    "scope": "heading.3.markdown",
-                    "settings": {
-                        "foreground": "#418be4"
-                        
-                    }
-                },{
-                    "scope": "heading.4.markdown",
-                    "settings": {
-                        "foreground": "#418be4"
-                        
-                    }
-                }
-            ]
-        }
-    }
-```
+- make sure your theme is in the list of supported themes inside of the snippet, otherwise adapt the snippet
+- copy the [part from the element `editor.tokenColorCustomizations`](VisualStudioCode/settings.json#L15-L50) and paste it into your `settings.json` file
 
 ## Configure User Snippets
 To allow user specific snippets do the following:
 - Open the palette and type `> Snippets: Configure User Snippets`
 - Select `markdown.json (Markdown)`
-- Paste the [content from this repository 'markdown.json'](markdown.json) there
+- Paste the [content from this repository 'markdown.json'](VisualStudioCode/markdown.json) there
 
 
 ## Additional tipps
