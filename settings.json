@@ -1,0 +1,51 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vs-minimal",
+    "markdown.preview.fontSize": 12,
+    "git.confirmSync": false,
+    "markdown-preview-github-styles.colorTheme": "light",
+    "markdown.preview.scrollEditorWithPreview": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.settings.editor": "json",
+    "markdown.styles": [
+        "https://cdn.jsdelivr.net/gh/SteffenHankiewicz/markdownHelper@1.6.13/markdown.css"
+    ],
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Light], [Default Light+], [Visual Studio Dark], [Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": "markup.italic.markdown",
+                    "settings": {
+                        "foreground": "#c7254e",
+                        "fontStyle": "bold"
+                    }
+                },{
+                    "scope": "heading.1.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                        
+                    }
+                },{
+                    "scope": "heading.2.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                    }
+                },{
+                    "scope": "heading.3.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                        
+                    }
+                },{
+                    "scope": "heading.4.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                        
+                    }
+                }
+            ]
+        }
+    }
+}
