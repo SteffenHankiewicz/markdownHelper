@@ -4,7 +4,7 @@ This is a small repository to collect Markdown utitilies to help using Markddown
 ## Styling of the Markdown output
 To optimise the styling of the Markdown Preview you can find an adapted css-File here. Please notice that the URL to this css-File has to be used through the jsDelivr CDN as GitHub raw files do contain an unwanded header that Visual Studio Code does not accept. Additionally please be careful to use the latest tagged version inside of the URL provided here.
 
-To use the provided css-styling open up the configuration file `settings.json` of Visual Studio Code like written below  and add the following line:
+To use the provided css-styling open up the configuration file `settings.json` of Visual Studio Code [like written below](#open-the-configuration-file-of-visual-studio-code-in-json-editor-mode) and add the following line:
 
 ```json
 "markdown.styles": [
@@ -14,7 +14,7 @@ To use the provided css-styling open up the configuration file `settings.json` o
 
 ## Customised highlighting inside of the Markdown editor 
 To change the way how the editor is doing the highlighting of the source code do the following:
-- open up the configuration file `settings.json` of Visual Studio Code like written below
+- open up the configuration file `settings.json` of Visual Studio Code [like written below](#open-the-configuration-file-of-visual-studio-code-in-json-editor-mode)
 - paste the following snippet into the configuration file:
 
 ```json
