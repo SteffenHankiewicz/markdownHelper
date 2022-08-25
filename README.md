@@ -14,6 +14,7 @@ To use the provided css-styling open up the configuration file `settings.json` o
 
 ## Customised highlighting inside of the Markdown editor 
 To change the way how the editor is doing the highlighting of the source code do the following:
+- make sure you use the same theme for the UI as in the following snippet (`Default Light+`), otherwise adapt the snippet
 - open up the configuration file `settings.json` of Visual Studio Code [like written below](#open-the-configuration-file-of-visual-studio-code-in-json-editor-mode)
 - paste the following snippet into the configuration file:
 
