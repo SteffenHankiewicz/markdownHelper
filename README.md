@@ -20,7 +20,7 @@ To change the way how the editor is doing the highlighting of the source code do
 
 ```json
 "editor.tokenColorCustomizations": {
-        "[Default Light+]": {
+        "[Visual Studio Light], [Default Light+], [Visual Studio Dark], [Default Dark+]": {
             "textMateRules": [
                 {
                     "scope": "markup.italic.markdown",
