@@ -29,9 +29,27 @@ To change the way how the editor is doing the highlighting of the source code do
                         "fontStyle": "bold"
                     }
                 },{
+                    "scope": "heading.1.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                        
+                    }
+                },{
+                    "scope": "heading.2.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                    }
+                },{
                     "scope": "heading.3.markdown",
                     "settings": {
                         "foreground": "#418be4"
+                        
+                    }
+                },{
+                    "scope": "heading.4.markdown",
+                    "settings": {
+                        "foreground": "#418be4"
+                        
                     }
                 }
             ]
