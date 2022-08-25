@@ -38,12 +38,18 @@ To change the way how the editor is doing the highlighting of the source code do
     }
 ```
 
+## Configure User Snippets
+To allow user specific snippets do the following:
+- Open the palette and type `> Snippets: Configure User Snippets`
+- Select `markdown.json (Markdown)`
+- Paste the [content from this repository 'markdown.json'](markdown.json) there
+
 
 ## Additional tipps
 
 ### Open the configuration file of Visual Studio Code in json-editor-mode
 There are different way to open up the json configuration file `settings.json`:
-- Open the palette and type `> Open user settings` there
+- Open the palette and type `> Open user settings` 
 - Use the shortcut `⌘` + `,` (Mac) or `Ctrl` + `,` (Windows) and click on the icon in the top right corner (next to the tabs) to switch to json-editor-mode
 
 
