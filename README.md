@@ -2,11 +2,11 @@
 This is a small repository to collect Markdown utitilies to help using Markddown for documentation and protocol purposes.
 
 ## tl;dr
-### Copy all configuration and Styling
+### Use provided configuration and styling
 - Open the palette and type `> Open user settings` (either directly in json mode or toggle to json view by using the icon on the top right)
 - Select all and replace it with the content of the file [settings.json](VisualStudioCode/settings.json) there
 
-### Copy user snippets
+### Use provided custom snippets
 - Open the palette and type `> Snippets: Configure User Snippets` and select 'Markdown' afterwards
 - Select all and replace it with the content of the file [markdown.json](VisualStudioCode/markdown.json) there
 
