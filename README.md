@@ -7,9 +7,12 @@ This is a small repository to collect Markdown utitilies to help using Markddown
 - Select all and replace it with the content of the file [settings.json](VisualStudioCode/settings.json) there
 
 ### Use provided custom snippets
-- Open the palette and type `> Snippets: Configure User Snippets` and select 'Markdown' afterwards
+- Open the palette and type `> Snippets: Configure User Snippets` and select `Markdown` afterwards
 - Select all and replace it with the content of the file [markdown.json](VisualStudioCode/markdown.json) there
 
+### Use tasks to create folders and files
+- Open the palette and type `> Open User Tasks`
+- Select all and replace it with the content of the file [tasks.json](VisualStudioCode/tasks.json) there
 
 <br/>
 <hr/>
