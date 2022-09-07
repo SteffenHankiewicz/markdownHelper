@@ -1,0 +1,44 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+      "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Datei anlegen (Deutsch)",
+            "type": "shell",
+            "command": "mkdir \"$(date +%Y%m%d) ${input:folderDe}\"; echo \"# ${input:fileDe} - $(date +%d.%m.%Y)\n\n- \" >> \"$(date +%Y%m%d) ${input:folderDe}/$(date +%Y%m%d) ${input:fileDe}.md\"",
+            "problemMatcher": []
+        },
+        {
+            "label": "Datei anlegen (Englisch)",
+            "type": "shell",
+            "command": "mkdir \"$(date +%Y%m%d) ${input:folderEn}\"; echo \"# ${input:fileEn} - $(date +%d.%m.%Y)\n\n- \" >> \"$(date +%Y%m%d) ${input:folderEn}/$(date +%Y%m%d) ${input:fileEn}.md\"",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "folderDe",
+            "description": "Verzeichnisname (deutsch)",
+            "default": "Projektbesprechung",
+            "type": "promptString"
+        },
+        {
+            "id": "fileDe",
+            "description": "Dateiname (deutsch)",
+            "default": "Protokoll",
+            "type": "promptString"
+        },{
+            "id": "folderEn",
+            "description": "Verzeichnisname (englisch)",
+            "default": "Project meeting",
+            "type": "promptString"
+        },
+        {
+            "id": "fileEn",
+            "description": "Dateiname (englisch)",
+            "default": "Meeting Notes",
+            "type": "promptString"
+        },
+    ]
+}
