@@ -4,15 +4,27 @@
       "version": "2.0.0",
     "tasks": [
         {
-            "label": "Datei anlegen (Deutsch)",
+            "label": "Notizen",
             "type": "shell",
-            "command": "mkdir \"$(date +%Y%m%d) ${input:folderDe}\"; echo \"# ${input:fileDe} - $(date +%d.%m.%Y)\n\n- \" >> \"$(date +%Y%m%d) ${input:folderDe}/$(date +%Y%m%d) ${input:fileDe}.md\"",
+            "command": "mkdir \"$(date +%Y%m%d) ${input:folderDe}\"; echo \"# ${input:fileDe} - $(date +%d.%m.%Y)\n\" >> \"$(date +%Y%m%d) ${input:folderDe}/$(date +%Y%m%d) ${input:fileDe}.md\"",
             "problemMatcher": []
         },
         {
-            "label": "Datei anlegen (Englisch)",
+            "label": "Notes",
             "type": "shell",
-            "command": "mkdir \"$(date +%Y%m%d) ${input:folderEn}\"; echo \"# ${input:fileEn} - $(date +%d.%m.%Y)\n\n- \" >> \"$(date +%Y%m%d) ${input:folderEn}/$(date +%Y%m%d) ${input:fileEn}.md\"",
+            "command": "mkdir \"$(date +%Y%m%d) ${input:folderEn}\"; echo \"# ${input:fileEn} - $(date +%d.%m.%Y)\n\" >> \"$(date +%Y%m%d) ${input:folderEn}/$(date +%Y%m%d) ${input:fileEn}.md\"",
+            "problemMatcher": []
+        },
+        {
+            "label": "Markdowndatei anlegen",
+            "type": "shell",
+            "command": "echo \"# ${input:file} - $(date +%d.%m.%Y)\n\n- \" >> \"${fileDirname}/$(date +%Y%m%d) ${input:file}.md\"",
+            "problemMatcher": []
+        },
+        {
+            "label": "Markdowndatei und Ordner anlegen",
+            "type": "shell",
+            "command": "mkdir \"$(date +%Y%m%d) ${input:folder}\"; echo \"# ${input:file} - $(date +%d.%m.%Y)\n\" >> \"$(date +%Y%m%d) ${input:folder}/$(date +%Y%m%d) ${input:file}.md\"",
             "problemMatcher": []
         }
     ],
@@ -38,6 +50,18 @@
             "id": "fileEn",
             "description": "Dateiname (englisch)",
             "default": "Meeting Notes",
+            "type": "promptString"
+        },        
+        {
+            "id": "file",
+            "description": "Dateiname für die Markdown-Datei",
+            "default": "Notizen",
+            "type": "promptString"
+        },
+        {
+            "id": "folder",
+            "description": "Name für Verzeichnis",
+            "default": "Projekt",
             "type": "promptString"
         },
     ]
