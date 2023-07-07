@@ -22,6 +22,11 @@
                         "fontStyle": "bold"
                     }
                 },{
+                    "scope": "markup.strikethrough.markdown",
+                    "settings": {
+                        "foreground": "#ccc",
+                    }
+                },{
                     "scope": "heading.1.markdown",
                     "settings": {
                         "foreground": "#418be4"
@@ -30,11 +35,13 @@
                 },{
                     "scope": "heading.2.markdown",
                     "settings": {
+                        "fontStyle": "bold",
                         "foreground": "#418be4"
                     }
                 },{
                     "scope": "heading.3.markdown",
                     "settings": {
+                        "fontStyle": "normal",
                         "foreground": "#418be4"
                         
                     }
