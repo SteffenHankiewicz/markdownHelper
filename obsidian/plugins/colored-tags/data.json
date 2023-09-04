@@ -1,0 +1,18 @@
+{
+  "chroma": 32,
+  "lightness": 100,
+  "palette": 8,
+  "seed": 2,
+  "knownTags": {
+    "ToDo": 1,
+    "ToDo/Steffen": 1,
+    "jan": 2,
+    "matthias": 3,
+    "TodDo": 4,
+    "TodDo/Vanessa": 1,
+    "ToDo/Vanessa": 2,
+    "klar": 5,
+    "Buh": 6
+  },
+  "_version": 2
+}
